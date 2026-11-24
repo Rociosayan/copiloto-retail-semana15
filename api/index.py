@@ -32,6 +32,17 @@ class Compra(BaseModel):
 
 @app.post("/api/py/optimizar")
 def optimizar(cuerpo: Compra):
+    try:
+        return calcular_plan(cuerpo)
+    except HTTPException:
+        raise
+    except Exception as error:
+        # Una línea breve en el registro permite diagnosticar fallos del solver en Vercel.
+        print(f"OPTIMIZAR_ERROR {type(error).__name__}: {str(error)[:300]}", flush=True)
+        raise HTTPException(500, "No se pudo resolver el plan de compra.") from error
+
+
+def calcular_plan(cuerpo: Compra):
     if not PRONOSTICO.exists():
         raise HTTPException(503, "Falta el pronóstico. Ejecute pipeline/03_demanda.py.")
     con = duckdb.connect()
