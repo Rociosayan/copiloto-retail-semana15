@@ -46,7 +46,9 @@ def calcular_plan(cuerpo: Compra):
     if not PRONOSTICO.exists():
         raise HTTPException(503, "Falta el pronóstico. Ejecute pipeline/03_demanda.py.")
     con = duckdb.connect()
-    productos = con.execute("SELECT * FROM read_parquet(?)", [str(PRONOSTICO)]).df().to_dict("records")
+    cursor = con.execute("SELECT * FROM read_parquet(?)", [str(PRONOSTICO)])
+    columnas = [columna[0] for columna in cursor.description]
+    productos = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     con.close()
     problema = pulp.LpProblem("reposicion", pulp.LpMaximize)
     compra = [pulp.LpVariable(f"q_{i}", lowBound=0, cat="Integer") for i in range(len(productos))]
