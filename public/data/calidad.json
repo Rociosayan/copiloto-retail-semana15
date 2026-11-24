@@ -1,0 +1,105 @@
+{
+  "fuente": "UCI Machine Learning Repository — Online Retail II",
+  "id_uci": 502,
+  "url": "https://archive.ics.uci.edu/dataset/502/online+retail+ii",
+  "licencia": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+  "fecha_descarga": "2026-11-23",
+  "filas_originales": 1067371,
+  "reglas": [
+    {
+      "id": "facturas_anuladas",
+      "descripcion": "Facturas anuladas (el código empieza con C)",
+      "filas_eliminadas": 19494
+    },
+    {
+      "id": "cantidad_o_precio",
+      "descripcion": "Cantidad o precio menores o iguales a cero, o no numéricos",
+      "filas_eliminadas": 6207
+    },
+    {
+      "id": "no_producto",
+      "descripcion": "Códigos que no son productos (envío, descuento, ajuste y similares)",
+      "filas_eliminadas": 4589
+    },
+    {
+      "id": "duplicados",
+      "descripcion": "Filas duplicadas exactas",
+      "filas_eliminadas": 33664
+    }
+  ],
+  "filas_finales": 1003417,
+  "fecha_min": "2009-12-01",
+  "fecha_max": "2011-12-09",
+  "linaje": [
+    {
+      "paso": "Fuente UCI Online Retail II",
+      "filas": 1067371
+    },
+    {
+      "paso": "Facturas anuladas (el código empieza con C)",
+      "filas": 1047877
+    },
+    {
+      "paso": "Cantidad o precio menores o iguales a cero, o no numéricos",
+      "filas": 1041670
+    },
+    {
+      "paso": "Códigos que no son productos (envío, descuento, ajuste y similares)",
+      "filas": 1037081
+    },
+    {
+      "paso": "Filas duplicadas exactas",
+      "filas": 1003417
+    }
+  ],
+  "responsable_propuesto": "Analítica comercial",
+  "finalidad": "Apoyar decisiones de retención, pronóstico de demanda y compras.",
+  "moneda": "GBP",
+  "diccionario": [
+    {
+      "campo": "factura",
+      "descripcion": "Código de la factura",
+      "ejemplo": "489434"
+    },
+    {
+      "campo": "codigo_producto",
+      "descripcion": "Código de producto (SKU)",
+      "ejemplo": "85048"
+    },
+    {
+      "campo": "descripcion",
+      "descripcion": "Nombre del producto",
+      "ejemplo": "15CM CHRISTMAS GLASS BALL"
+    },
+    {
+      "campo": "cantidad",
+      "descripcion": "Unidades de la línea de factura",
+      "ejemplo": "12"
+    },
+    {
+      "campo": "fecha",
+      "descripcion": "Día de la factura, sin hora",
+      "ejemplo": "2009-12-01"
+    },
+    {
+      "campo": "precio_unitario",
+      "descripcion": "Precio unitario en libras esterlinas",
+      "ejemplo": "6.95"
+    },
+    {
+      "campo": "cliente_id",
+      "descripcion": "Identificador del cliente; vacío si la tienda no lo registró",
+      "ejemplo": "13085"
+    },
+    {
+      "campo": "pais",
+      "descripcion": "País de entrega",
+      "ejemplo": "United Kingdom"
+    },
+    {
+      "campo": "ventas",
+      "descripcion": "Importe de la línea: cantidad por precio unitario, en libras",
+      "ejemplo": "83.40"
+    }
+  ]
+}

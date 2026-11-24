@@ -1,0 +1,15 @@
+node_modules
+.next
+.env.local
+.env
+.env.*
+!.env.example
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.chrome-preview
+vista-*.png
+.vercel
+pipeline/online_retail_II.xlsx
+pipeline/online_retail_ii.zip

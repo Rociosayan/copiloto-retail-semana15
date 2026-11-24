@@ -1,0 +1,7 @@
+pandas
+pyarrow
+openpyxl
+python-calamine
+scikit-learn
+statsmodels
+ucimlrepo

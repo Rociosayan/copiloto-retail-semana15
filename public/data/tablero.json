@@ -1,0 +1,3193 @@
+{
+  "ventas_totales": 19645617.79,
+  "facturas": 39516,
+  "clientes": 5852,
+  "productos": 4731,
+  "paises": 43,
+  "ticket_promedio": 497.16,
+  "fecha_min": "2009-12-01",
+  "fecha_max": "2011-12-09",
+  "ranking_paises": [
+    {
+      "pais": "United Kingdom",
+      "ventas": 16802775.54,
+      "facturas": 36184
+    },
+    {
+      "pais": "EIRE",
+      "ventas": 623414.16,
+      "facturas": 581
+    },
+    {
+      "pais": "Netherlands",
+      "ventas": 549773.41,
+      "facturas": 216
+    },
+    {
+      "pais": "Germany",
+      "ventas": 383289.0,
+      "facturas": 753
+    },
+    {
+      "pais": "France",
+      "ventas": 311090.29,
+      "facturas": 598
+    },
+    {
+      "pais": "Australia",
+      "ventas": 167800.01,
+      "facturas": 89
+    },
+    {
+      "pais": "Spain",
+      "ventas": 97766.75,
+      "facturas": 144
+    },
+    {
+      "pais": "Switzerland",
+      "ventas": 94024.59,
+      "facturas": 85
+    },
+    {
+      "pais": "Sweden",
+      "ventas": 86319.14,
+      "facturas": 99
+    },
+    {
+      "pais": "Denmark",
+      "ventas": 67422.69,
+      "facturas": 42
+    },
+    {
+      "pais": "Belgium",
+      "ventas": 56993.17,
+      "facturas": 143
+    },
+    {
+      "pais": "Portugal",
+      "ventas": 47338.27,
+      "facturas": 85
+    },
+    {
+      "pais": "Channel Islands",
+      "ventas": 44030.33,
+      "facturas": 54
+    },
+    {
+      "pais": "Japan",
+      "ventas": 43023.91,
+      "facturas": 33
+    },
+    {
+      "pais": "Norway",
+      "ventas": 38575.36,
+      "facturas": 39
+    },
+    {
+      "pais": "Italy",
+      "ventas": 28937.5,
+      "facturas": 59
+    },
+    {
+      "pais": "Finland",
+      "ventas": 25180.1,
+      "facturas": 54
+    },
+    {
+      "pais": "Cyprus",
+      "ventas": 24484.26,
+      "facturas": 35
+    },
+    {
+      "pais": "Austria",
+      "ventas": 20297.01,
+      "facturas": 40
+    },
+    {
+      "pais": "Greece",
+      "ventas": 18711.19,
+      "facturas": 18
+    },
+    {
+      "pais": "Hong Kong",
+      "ventas": 13666.45,
+      "facturas": 9
+    },
+    {
+      "pais": "Singapore",
+      "ventas": 13158.16,
+      "facturas": 8
+    },
+    {
+      "pais": "Israel",
+      "ventas": 11328.81,
+      "facturas": 10
+    },
+    {
+      "pais": "Unspecified",
+      "ventas": 10927.16,
+      "facturas": 24
+    },
+    {
+      "pais": "United Arab Emirates",
+      "ventas": 10273.23,
+      "facturas": 12
+    },
+    {
+      "pais": "Poland",
+      "ventas": 10214.29,
+      "facturas": 28
+    },
+    {
+      "pais": "USA",
+      "ventas": 7920.01,
+      "facturas": 16
+    },
+    {
+      "pais": "Iceland",
+      "ventas": 4921.53,
+      "facturas": 8
+    },
+    {
+      "pais": "Lithuania",
+      "ventas": 4892.68,
+      "facturas": 6
+    },
+    {
+      "pais": "Malta",
+      "ventas": 4757.34,
+      "facturas": 7
+    },
+    {
+      "pais": "Canada",
+      "ventas": 4332.1,
+      "facturas": 7
+    },
+    {
+      "pais": "RSA",
+      "ventas": 3369.03,
+      "facturas": 3
+    },
+    {
+      "pais": "Bahrain",
+      "ventas": 3109.79,
+      "facturas": 10
+    },
+    {
+      "pais": "Thailand",
+      "ventas": 3070.54,
+      "facturas": 2
+    },
+    {
+      "pais": "Lebanon",
+      "ventas": 1905.58,
+      "facturas": 2
+    },
+    {
+      "pais": "Brazil",
+      "ventas": 1411.87,
+      "facturas": 2
+    },
+    {
+      "pais": "Bermuda",
+      "ventas": 1253.14,
+      "facturas": 1
+    },
+    {
+      "pais": "European Community",
+      "ventas": 1159.25,
+      "facturas": 3
+    },
+    {
+      "pais": "Korea",
+      "ventas": 1118.51,
+      "facturas": 2
+    },
+    {
+      "pais": "Czech Republic",
+      "ventas": 786.74,
+      "facturas": 2
+    },
+    {
+      "pais": "West Indies",
+      "ventas": 536.41,
+      "facturas": 1
+    },
+    {
+      "pais": "Saudi Arabia",
+      "ventas": 145.92,
+      "facturas": 1
+    },
+    {
+      "pais": "Nigeria",
+      "ventas": 112.57,
+      "facturas": 1
+    }
+  ],
+  "avance_mensual": [
+    {
+      "mes": "2009-12",
+      "ventas": 798118.53
+    },
+    {
+      "mes": "2010-01",
+      "ventas": 612365.5
+    },
+    {
+      "mes": "2010-02",
+      "ventas": 537926.69
+    },
+    {
+      "mes": "2010-03",
+      "ventas": 761748.53
+    },
+    {
+      "mes": "2010-04",
+      "ventas": 646451.56
+    },
+    {
+      "mes": "2010-05",
+      "ventas": 643585.64
+    },
+    {
+      "mes": "2010-06",
+      "ventas": 696651.27
+    },
+    {
+      "mes": "2010-07",
+      "ventas": 633079.42
+    },
+    {
+      "mes": "2010-08",
+      "ventas": 674192.89
+    },
+    {
+      "mes": "2010-09",
+      "ventas": 869277.16
+    },
+    {
+      "mes": "2010-10",
+      "ventas": 1094563.63
+    },
+    {
+      "mes": "2010-11",
+      "ventas": 1429751.84
+    },
+    {
+      "mes": "2010-12",
+      "ventas": 775714.95
+    },
+    {
+      "mes": "2011-01",
+      "ventas": 670439.46
+    },
+    {
+      "mes": "2011-02",
+      "ventas": 507866.54
+    },
+    {
+      "mes": "2011-03",
+      "ventas": 689841.84
+    },
+    {
+      "mes": "2011-04",
+      "ventas": 515469.66
+    },
+    {
+      "mes": "2011-05",
+      "ventas": 740036.33
+    },
+    {
+      "mes": "2011-06",
+      "ventas": 737683.99
+    },
+    {
+      "mes": "2011-07",
+      "ventas": 688252.67
+    },
+    {
+      "mes": "2011-08",
+      "ventas": 724308.16
+    },
+    {
+      "mes": "2011-09",
+      "ventas": 1028345.38
+    },
+    {
+      "mes": "2011-10",
+      "ventas": 1103330.92
+    },
+    {
+      "mes": "2011-11",
+      "ventas": 1452115.98
+    },
+    {
+      "mes": "2011-12",
+      "ventas": 614499.25
+    }
+  ],
+  "avance_por_pais": [
+    {
+      "pais": "Australia",
+      "mes": "2009-12",
+      "ventas": 271.1
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-02",
+      "ventas": 1029.66
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-03",
+      "ventas": 429.39
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-04",
+      "ventas": 630.95
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-05",
+      "ventas": 1312.7
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-06",
+      "ventas": 3214.78
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-07",
+      "ventas": 631.12
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-08",
+      "ventas": 176.0
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-09",
+      "ventas": 785.83
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-10",
+      "ventas": 2979.15
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-11",
+      "ventas": 18235.52
+    },
+    {
+      "pais": "Australia",
+      "mes": "2010-12",
+      "ventas": 965.35
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-01",
+      "ventas": 9017.71
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-02",
+      "ventas": 14695.42
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-03",
+      "ventas": 17223.99
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-04",
+      "ventas": 421.6
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-05",
+      "ventas": 13638.41
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-06",
+      "ventas": 25187.77
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-07",
+      "ventas": 4964.38
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-08",
+      "ventas": 22489.2
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-09",
+      "ventas": 5106.73
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-10",
+      "ventas": 17150.53
+    },
+    {
+      "pais": "Australia",
+      "mes": "2011-11",
+      "ventas": 7242.72
+    },
+    {
+      "pais": "Austria",
+      "mes": "2009-12",
+      "ventas": 1918.34
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-02",
+      "ventas": 878.86
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-03",
+      "ventas": 685.13
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-04",
+      "ventas": 1388.54
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-05",
+      "ventas": 502.04
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-06",
+      "ventas": 268.1
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-08",
+      "ventas": 1043.15
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-09",
+      "ventas": 1400.17
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-10",
+      "ventas": 956.7
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-11",
+      "ventas": 2513.3
+    },
+    {
+      "pais": "Austria",
+      "mes": "2010-12",
+      "ventas": 157.2
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-02",
+      "ventas": 438.36
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-03",
+      "ventas": 1308.12
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-04",
+      "ventas": 584.78
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-05",
+      "ventas": 1049.43
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-07",
+      "ventas": 1111.95
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-08",
+      "ventas": 1436.08
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-10",
+      "ventas": 923.78
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-11",
+      "ventas": 1209.78
+    },
+    {
+      "pais": "Austria",
+      "mes": "2011-12",
+      "ventas": 523.2
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2010-02",
+      "ventas": 439.85
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2010-03",
+      "ventas": 548.8
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2010-05",
+      "ventas": 585.96
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2010-06",
+      "ventas": 463.28
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2010-10",
+      "ventas": 317.76
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2010-12",
+      "ventas": 205.74
+    },
+    {
+      "pais": "Bahrain",
+      "mes": "2011-05",
+      "ventas": 548.4
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2009-12",
+      "ventas": 287.6
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-01",
+      "ventas": 1439.02
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-02",
+      "ventas": 1685.35
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-03",
+      "ventas": 609.52
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-04",
+      "ventas": 2360.39
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-05",
+      "ventas": 83.15
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-06",
+      "ventas": 3280.34
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-07",
+      "ventas": 1716.23
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-08",
+      "ventas": 1575.62
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-09",
+      "ventas": 1070.91
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-10",
+      "ventas": 1304.72
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-11",
+      "ventas": 4652.98
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2010-12",
+      "ventas": 1599.91
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-01",
+      "ventas": 1080.2
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-02",
+      "ventas": 1926.07
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-03",
+      "ventas": 2994.98
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-04",
+      "ventas": 1788.48
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-05",
+      "ventas": 2486.4
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-06",
+      "ventas": 3848.82
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-07",
+      "ventas": 2205.57
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-08",
+      "ventas": 3140.02
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-09",
+      "ventas": 3779.02
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-10",
+      "ventas": 5169.38
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-11",
+      "ventas": 5619.76
+    },
+    {
+      "pais": "Belgium",
+      "mes": "2011-12",
+      "ventas": 1288.73
+    },
+    {
+      "pais": "Bermuda",
+      "mes": "2010-03",
+      "ventas": 1253.14
+    },
+    {
+      "pais": "Brazil",
+      "mes": "2010-09",
+      "ventas": 268.27
+    },
+    {
+      "pais": "Brazil",
+      "mes": "2011-04",
+      "ventas": 1143.6
+    },
+    {
+      "pais": "Canada",
+      "mes": "2010-10",
+      "ventas": 834.89
+    },
+    {
+      "pais": "Canada",
+      "mes": "2010-11",
+      "ventas": 381.77
+    },
+    {
+      "pais": "Canada",
+      "mes": "2011-03",
+      "ventas": 140.54
+    },
+    {
+      "pais": "Canada",
+      "mes": "2011-05",
+      "ventas": 534.24
+    },
+    {
+      "pais": "Canada",
+      "mes": "2011-06",
+      "ventas": 1171.46
+    },
+    {
+      "pais": "Canada",
+      "mes": "2011-07",
+      "ventas": 1217.64
+    },
+    {
+      "pais": "Canada",
+      "mes": "2011-08",
+      "ventas": 51.56
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2009-12",
+      "ventas": 989.18
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-01",
+      "ventas": 838.75
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-03",
+      "ventas": 1065.12
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-04",
+      "ventas": 926.82
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-05",
+      "ventas": 5378.52
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-06",
+      "ventas": 845.0
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-08",
+      "ventas": 1363.14
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-09",
+      "ventas": 6106.34
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-10",
+      "ventas": 4341.19
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-11",
+      "ventas": 2178.73
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2010-12",
+      "ventas": 313.53
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-01",
+      "ventas": 675.58
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-02",
+      "ventas": 1784.71
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-03",
+      "ventas": 3509.33
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-04",
+      "ventas": 243.0
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-05",
+      "ventas": 914.24
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-06",
+      "ventas": 2060.03
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-08",
+      "ventas": 4886.88
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-09",
+      "ventas": 1323.75
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-10",
+      "ventas": 2623.32
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-11",
+      "ventas": 1464.77
+    },
+    {
+      "pais": "Channel Islands",
+      "mes": "2011-12",
+      "ventas": 198.4
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2009-12",
+      "ventas": 3541.68
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-01",
+      "ventas": 76.52
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-02",
+      "ventas": 750.49
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-03",
+      "ventas": 2879.19
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-04",
+      "ventas": 1151.7
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-05",
+      "ventas": 500.61
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-06",
+      "ventas": 489.8
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-09",
+      "ventas": 978.18
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-10",
+      "ventas": 551.33
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-11",
+      "ventas": 397.6
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2010-12",
+      "ventas": 1587.07
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-01",
+      "ventas": 547.5
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-02",
+      "ventas": 3998.55
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-03",
+      "ventas": 938.39
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-06",
+      "ventas": 1109.32
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-09",
+      "ventas": 196.35
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-10",
+      "ventas": 4350.32
+    },
+    {
+      "pais": "Cyprus",
+      "mes": "2011-11",
+      "ventas": 439.66
+    },
+    {
+      "pais": "Czech Republic",
+      "mes": "2011-02",
+      "ventas": 549.26
+    },
+    {
+      "pais": "Czech Republic",
+      "mes": "2011-10",
+      "ventas": 237.48
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2009-12",
+      "ventas": 1365.66
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-01",
+      "ventas": 7870.6
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-02",
+      "ventas": 19809.9
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-03",
+      "ventas": 7595.18
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-04",
+      "ventas": 748.0
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-06",
+      "ventas": 2623.51
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-07",
+      "ventas": 555.66
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-08",
+      "ventas": 2553.03
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-09",
+      "ventas": 1725.25
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-10",
+      "ventas": 322.6
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-11",
+      "ventas": 4041.96
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2010-12",
+      "ventas": 1137.5
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-02",
+      "ventas": 363.22
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-03",
+      "ventas": 3978.99
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-05",
+      "ventas": 479.7
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-06",
+      "ventas": 3063.15
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-07",
+      "ventas": 358.24
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-08",
+      "ventas": 195.15
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-09",
+      "ventas": 4510.16
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-10",
+      "ventas": 1274.76
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-11",
+      "ventas": 2699.57
+    },
+    {
+      "pais": "Denmark",
+      "mes": "2011-12",
+      "ventas": 150.9
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2009-12",
+      "ventas": 18946.49
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-01",
+      "ventas": 58669.48
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-02",
+      "ventas": 20415.2
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-03",
+      "ventas": 21778.3
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-04",
+      "ventas": 23332.73
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-05",
+      "ventas": 18635.59
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-06",
+      "ventas": 22449.21
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-07",
+      "ventas": 34595.97
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-08",
+      "ventas": 25405.71
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-09",
+      "ventas": 35872.12
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-10",
+      "ventas": 42246.19
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-11",
+      "ventas": 30216.31
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2010-12",
+      "ventas": 9683.26
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-01",
+      "ventas": 21704.19
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-02",
+      "ventas": 12038.74
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-03",
+      "ventas": 18323.17
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-04",
+      "ventas": 7270.5
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-05",
+      "ventas": 17753.72
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-06",
+      "ventas": 20713.29
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-07",
+      "ventas": 42238.85
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-08",
+      "ventas": 18044.2
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-09",
+      "ventas": 42323.7
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-10",
+      "ventas": 23802.92
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-11",
+      "ventas": 29813.43
+    },
+    {
+      "pais": "EIRE",
+      "mes": "2011-12",
+      "ventas": 7140.89
+    },
+    {
+      "pais": "European Community",
+      "mes": "2011-04",
+      "ventas": 155.4
+    },
+    {
+      "pais": "European Community",
+      "mes": "2011-06",
+      "ventas": 387.05
+    },
+    {
+      "pais": "European Community",
+      "mes": "2011-07",
+      "ventas": 616.8
+    },
+    {
+      "pais": "Finland",
+      "mes": "2009-12",
+      "ventas": 469.08
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-01",
+      "ventas": 738.18
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-04",
+      "ventas": 1175.13
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-05",
+      "ventas": 837.11
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-06",
+      "ventas": 534.14
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-07",
+      "ventas": 836.23
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-09",
+      "ventas": 863.68
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-10",
+      "ventas": 1086.69
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-11",
+      "ventas": 294.98
+    },
+    {
+      "pais": "Finland",
+      "mes": "2010-12",
+      "ventas": 652.8
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-01",
+      "ventas": 769.02
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-02",
+      "ventas": 165.16
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-03",
+      "ventas": 4865.62
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-04",
+      "ventas": 1368.92
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-06",
+      "ventas": 289.56
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-07",
+      "ventas": 2436.73
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-08",
+      "ventas": 1096.5
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-09",
+      "ventas": 905.45
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-10",
+      "ventas": 2266.12
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-11",
+      "ventas": 2456.24
+    },
+    {
+      "pais": "Finland",
+      "mes": "2011-12",
+      "ventas": 1072.76
+    },
+    {
+      "pais": "France",
+      "mes": "2009-12",
+      "ventas": 5873.69
+    },
+    {
+      "pais": "France",
+      "mes": "2010-01",
+      "ventas": 7316.45
+    },
+    {
+      "pais": "France",
+      "mes": "2010-02",
+      "ventas": 8073.16
+    },
+    {
+      "pais": "France",
+      "mes": "2010-03",
+      "ventas": 8007.79
+    },
+    {
+      "pais": "France",
+      "mes": "2010-04",
+      "ventas": 7144.98
+    },
+    {
+      "pais": "France",
+      "mes": "2010-05",
+      "ventas": 13298.55
+    },
+    {
+      "pais": "France",
+      "mes": "2010-06",
+      "ventas": 8439.54
+    },
+    {
+      "pais": "France",
+      "mes": "2010-07",
+      "ventas": 7267.14
+    },
+    {
+      "pais": "France",
+      "mes": "2010-08",
+      "ventas": 16285.32
+    },
+    {
+      "pais": "France",
+      "mes": "2010-09",
+      "ventas": 12314.58
+    },
+    {
+      "pais": "France",
+      "mes": "2010-10",
+      "ventas": 14394.57
+    },
+    {
+      "pais": "France",
+      "mes": "2010-11",
+      "ventas": 18181.52
+    },
+    {
+      "pais": "France",
+      "mes": "2010-12",
+      "ventas": 8530.31
+    },
+    {
+      "pais": "France",
+      "mes": "2011-01",
+      "ventas": 16174.12
+    },
+    {
+      "pais": "France",
+      "mes": "2011-02",
+      "ventas": 7687.96
+    },
+    {
+      "pais": "France",
+      "mes": "2011-03",
+      "ventas": 13684.95
+    },
+    {
+      "pais": "France",
+      "mes": "2011-04",
+      "ventas": 3899.31
+    },
+    {
+      "pais": "France",
+      "mes": "2011-05",
+      "ventas": 16166.48
+    },
+    {
+      "pais": "France",
+      "mes": "2011-06",
+      "ventas": 14962.41
+    },
+    {
+      "pais": "France",
+      "mes": "2011-07",
+      "ventas": 9171.19
+    },
+    {
+      "pais": "France",
+      "mes": "2011-08",
+      "ventas": 12630.96
+    },
+    {
+      "pais": "France",
+      "mes": "2011-09",
+      "ventas": 21898.04
+    },
+    {
+      "pais": "France",
+      "mes": "2011-10",
+      "ventas": 23993.93
+    },
+    {
+      "pais": "France",
+      "mes": "2011-11",
+      "ventas": 29154.42
+    },
+    {
+      "pais": "France",
+      "mes": "2011-12",
+      "ventas": 6538.92
+    },
+    {
+      "pais": "Germany",
+      "mes": "2009-12",
+      "ventas": 8768.27
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-01",
+      "ventas": 11260.87
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-02",
+      "ventas": 7971.25
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-03",
+      "ventas": 15347.08
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-04",
+      "ventas": 21667.23
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-05",
+      "ventas": 8100.36
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-06",
+      "ventas": 14373.23
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-07",
+      "ventas": 18227.27
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-08",
+      "ventas": 8982.12
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-09",
+      "ventas": 16160.68
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-10",
+      "ventas": 19380.98
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-11",
+      "ventas": 27668.51
+    },
+    {
+      "pais": "Germany",
+      "mes": "2010-12",
+      "ventas": 13243.74
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-01",
+      "ventas": 15296.84
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-02",
+      "ventas": 8825.05
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-03",
+      "ventas": 12862.69
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-04",
+      "ventas": 10994.79
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-05",
+      "ventas": 23501.7
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-06",
+      "ventas": 12094.35
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-07",
+      "ventas": 14743.3
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-08",
+      "ventas": 17636.77
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-09",
+      "ventas": 16549.47
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-10",
+      "ventas": 28412.92
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-11",
+      "ventas": 24195.36
+    },
+    {
+      "pais": "Germany",
+      "mes": "2011-12",
+      "ventas": 7024.17
+    },
+    {
+      "pais": "Greece",
+      "mes": "2009-12",
+      "ventas": 610.95
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-01",
+      "ventas": 4798.35
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-03",
+      "ventas": 522.73
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-04",
+      "ventas": 227.93
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-05",
+      "ventas": 2476.22
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-06",
+      "ventas": 302.4
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-08",
+      "ventas": 721.71
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-09",
+      "ventas": 780.06
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-10",
+      "ventas": 3084.02
+    },
+    {
+      "pais": "Greece",
+      "mes": "2010-11",
+      "ventas": 761.3
+    },
+    {
+      "pais": "Greece",
+      "mes": "2011-01",
+      "ventas": 2661.24
+    },
+    {
+      "pais": "Greece",
+      "mes": "2011-03",
+      "ventas": 387.31
+    },
+    {
+      "pais": "Greece",
+      "mes": "2011-04",
+      "ventas": 509.74
+    },
+    {
+      "pais": "Greece",
+      "mes": "2011-07",
+      "ventas": 321.24
+    },
+    {
+      "pais": "Greece",
+      "mes": "2011-12",
+      "ventas": 545.99
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2010-04",
+      "ventas": 2236.61
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2010-06",
+      "ventas": 1685.65
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2011-01",
+      "ventas": 2230.96
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2011-04",
+      "ventas": 1539.64
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2011-05",
+      "ventas": 1966.16
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2011-06",
+      "ventas": 618.96
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2011-08",
+      "ventas": 2653.95
+    },
+    {
+      "pais": "Hong Kong",
+      "mes": "2011-10",
+      "ventas": 734.52
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2010-10",
+      "ventas": 611.53
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2010-12",
+      "ventas": 711.79
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2011-01",
+      "ventas": 475.39
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2011-04",
+      "ventas": 636.25
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2011-06",
+      "ventas": 382.52
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2011-08",
+      "ventas": 584.91
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2011-10",
+      "ventas": 1294.32
+    },
+    {
+      "pais": "Iceland",
+      "mes": "2011-12",
+      "ventas": 224.82
+    },
+    {
+      "pais": "Israel",
+      "mes": "2010-07",
+      "ventas": 1950.98
+    },
+    {
+      "pais": "Israel",
+      "mes": "2010-11",
+      "ventas": 1248.42
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-01",
+      "ventas": 379.84
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-02",
+      "ventas": 779.1
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-04",
+      "ventas": 110.0
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-07",
+      "ventas": 1430.75
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-08",
+      "ventas": 4873.81
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-09",
+      "ventas": 423.73
+    },
+    {
+      "pais": "Israel",
+      "mes": "2011-10",
+      "ventas": 132.18
+    },
+    {
+      "pais": "Italy",
+      "mes": "2009-12",
+      "ventas": 422.35
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-03",
+      "ventas": 699.22
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-04",
+      "ventas": 1525.85
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-05",
+      "ventas": 1869.45
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-06",
+      "ventas": 232.45
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-09",
+      "ventas": 1268.56
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-10",
+      "ventas": 4566.22
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-11",
+      "ventas": 2533.16
+    },
+    {
+      "pais": "Italy",
+      "mes": "2010-12",
+      "ventas": 650.5
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-01",
+      "ventas": 2066.51
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-02",
+      "ventas": 228.0
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-03",
+      "ventas": 1676.81
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-04",
+      "ventas": 737.83
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-05",
+      "ventas": 587.45
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-06",
+      "ventas": 202.07
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-07",
+      "ventas": 147.1
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-08",
+      "ventas": 1838.95
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-09",
+      "ventas": 279.8
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-10",
+      "ventas": 3329.69
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-11",
+      "ventas": 3875.08
+    },
+    {
+      "pais": "Italy",
+      "mes": "2011-12",
+      "ventas": 200.45
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-01",
+      "ventas": 2.95
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-02",
+      "ventas": 193.72
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-03",
+      "ventas": 110.4
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-06",
+      "ventas": 594.68
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-07",
+      "ventas": 1253.3
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-09",
+      "ventas": 1895.0
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-10",
+      "ventas": 1533.89
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-11",
+      "ventas": 23.6
+    },
+    {
+      "pais": "Japan",
+      "mes": "2010-12",
+      "ventas": 7705.07
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-02",
+      "ventas": 5780.81
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-03",
+      "ventas": 48.9
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-04",
+      "ventas": 6548.5
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-05",
+      "ventas": 1351.45
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-06",
+      "ventas": 1607.04
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-07",
+      "ventas": 3854.4
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-09",
+      "ventas": 112.08
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-10",
+      "ventas": 1948.04
+    },
+    {
+      "pais": "Japan",
+      "mes": "2011-11",
+      "ventas": 8460.08
+    },
+    {
+      "pais": "Korea",
+      "mes": "2010-09",
+      "ventas": 168.69
+    },
+    {
+      "pais": "Korea",
+      "mes": "2010-11",
+      "ventas": 949.82
+    },
+    {
+      "pais": "Lebanon",
+      "mes": "2010-09",
+      "ventas": 211.7
+    },
+    {
+      "pais": "Lebanon",
+      "mes": "2011-01",
+      "ventas": 1693.88
+    },
+    {
+      "pais": "Lithuania",
+      "mes": "2010-07",
+      "ventas": 1706.23
+    },
+    {
+      "pais": "Lithuania",
+      "mes": "2010-11",
+      "ventas": 1525.39
+    },
+    {
+      "pais": "Lithuania",
+      "mes": "2010-12",
+      "ventas": 1661.06
+    },
+    {
+      "pais": "Malta",
+      "mes": "2010-02",
+      "ventas": 818.19
+    },
+    {
+      "pais": "Malta",
+      "mes": "2010-08",
+      "ventas": 1868.56
+    },
+    {
+      "pais": "Malta",
+      "mes": "2011-06",
+      "ventas": 703.16
+    },
+    {
+      "pais": "Malta",
+      "mes": "2011-08",
+      "ventas": 1079.0
+    },
+    {
+      "pais": "Malta",
+      "mes": "2011-11",
+      "ventas": 288.43
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2009-12",
+      "ventas": 15045.73
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-01",
+      "ventas": 29167.77
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-02",
+      "ventas": 17210.39
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-03",
+      "ventas": 24241.3
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-04",
+      "ventas": 6336.78
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-05",
+      "ventas": 22221.53
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-06",
+      "ventas": 24134.51
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-07",
+      "ventas": 5383.64
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-08",
+      "ventas": 24881.69
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-09",
+      "ventas": 44773.14
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-10",
+      "ventas": 16857.85
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-11",
+      "ventas": 35629.74
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2010-12",
+      "ventas": 8754.48
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-01",
+      "ventas": 26596.16
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-02",
+      "ventas": 22831.91
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-03",
+      "ventas": 22206.49
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-04",
+      "ventas": 2886.56
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-05",
+      "ventas": 28942.88
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-06",
+      "ventas": 26753.09
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-07",
+      "ventas": 11.02
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-08",
+      "ventas": 40327.81
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-09",
+      "ventas": 26832.26
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-10",
+      "ventas": 40378.65
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-11",
+      "ventas": 25640.01
+    },
+    {
+      "pais": "Netherlands",
+      "mes": "2011-12",
+      "ventas": 11728.02
+    },
+    {
+      "pais": "Nigeria",
+      "mes": "2010-08",
+      "ventas": 112.57
+    },
+    {
+      "pais": "Norway",
+      "mes": "2009-12",
+      "ventas": 365.31
+    },
+    {
+      "pais": "Norway",
+      "mes": "2010-08",
+      "ventas": 152.4
+    },
+    {
+      "pais": "Norway",
+      "mes": "2010-09",
+      "ventas": 973.69
+    },
+    {
+      "pais": "Norway",
+      "mes": "2010-11",
+      "ventas": 4629.32
+    },
+    {
+      "pais": "Norway",
+      "mes": "2010-12",
+      "ventas": 3787.12
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-02",
+      "ventas": 590.9
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-03",
+      "ventas": 345.01
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-06",
+      "ventas": 5186.86
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-07",
+      "ventas": 770.07
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-08",
+      "ventas": 1505.81
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-09",
+      "ventas": 8398.94
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-10",
+      "ventas": 3316.73
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-11",
+      "ventas": 5807.5
+    },
+    {
+      "pais": "Norway",
+      "mes": "2011-12",
+      "ventas": 2745.7
+    },
+    {
+      "pais": "Poland",
+      "mes": "2009-12",
+      "ventas": 371.82
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-03",
+      "ventas": 318.86
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-06",
+      "ventas": 556.16
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-07",
+      "ventas": 294.75
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-08",
+      "ventas": 527.44
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-09",
+      "ventas": 349.47
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-11",
+      "ventas": 821.14
+    },
+    {
+      "pais": "Poland",
+      "mes": "2010-12",
+      "ventas": 248.16
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-01",
+      "ventas": 613.22
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-02",
+      "ventas": 604.05
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-03",
+      "ventas": 317.78
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-04",
+      "ventas": 705.84
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-05",
+      "ventas": 1402.37
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-06",
+      "ventas": 263.65
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-07",
+      "ventas": 607.3
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-08",
+      "ventas": 361.8
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-09",
+      "ventas": 489.25
+    },
+    {
+      "pais": "Poland",
+      "mes": "2011-11",
+      "ventas": 1361.23
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2009-12",
+      "ventas": 2765.58
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-02",
+      "ventas": 374.83
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-03",
+      "ventas": 2399.45
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-04",
+      "ventas": 85.54
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-05",
+      "ventas": 589.2
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-06",
+      "ventas": 3332.46
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-07",
+      "ventas": 232.1
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-08",
+      "ventas": 379.22
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-09",
+      "ventas": 2880.58
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-10",
+      "ventas": 2558.23
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-11",
+      "ventas": 4789.97
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2010-12",
+      "ventas": 2047.97
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-01",
+      "ventas": 3479.71
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-02",
+      "ventas": 1017.9
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-03",
+      "ventas": 2520.85
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-04",
+      "ventas": 1687.75
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-05",
+      "ventas": 602.83
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-06",
+      "ventas": 800.46
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-07",
+      "ventas": 2175.85
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-08",
+      "ventas": 1221.4
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-09",
+      "ventas": 1377.22
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-10",
+      "ventas": 5307.68
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-11",
+      "ventas": 2295.3
+    },
+    {
+      "pais": "Portugal",
+      "mes": "2011-12",
+      "ventas": 2416.19
+    },
+    {
+      "pais": "RSA",
+      "mes": "2010-02",
+      "ventas": 931.43
+    },
+    {
+      "pais": "RSA",
+      "mes": "2010-10",
+      "ventas": 1435.29
+    },
+    {
+      "pais": "RSA",
+      "mes": "2011-10",
+      "ventas": 1002.31
+    },
+    {
+      "pais": "Saudi Arabia",
+      "mes": "2011-02",
+      "ventas": 145.92
+    },
+    {
+      "pais": "Singapore",
+      "mes": "2010-04",
+      "ventas": 1252.95
+    },
+    {
+      "pais": "Singapore",
+      "mes": "2010-09",
+      "ventas": 2784.82
+    },
+    {
+      "pais": "Singapore",
+      "mes": "2011-01",
+      "ventas": 2053.07
+    },
+    {
+      "pais": "Singapore",
+      "mes": "2011-04",
+      "ventas": 2118.74
+    },
+    {
+      "pais": "Singapore",
+      "mes": "2011-07",
+      "ventas": 3949.32
+    },
+    {
+      "pais": "Singapore",
+      "mes": "2011-10",
+      "ventas": 999.26
+    },
+    {
+      "pais": "Spain",
+      "mes": "2009-12",
+      "ventas": 7754.18
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-01",
+      "ventas": 2120.85
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-02",
+      "ventas": 442.04
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-03",
+      "ventas": 1447.77
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-04",
+      "ventas": 721.98
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-05",
+      "ventas": 2372.58
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-06",
+      "ventas": 2296.2
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-07",
+      "ventas": 1078.81
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-08",
+      "ventas": 1090.99
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-09",
+      "ventas": 3266.45
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-10",
+      "ventas": 13566.13
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-11",
+      "ventas": 5902.21
+    },
+    {
+      "pais": "Spain",
+      "mes": "2010-12",
+      "ventas": 1703.73
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-01",
+      "ventas": 9694.09
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-02",
+      "ventas": 1722.5
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-03",
+      "ventas": 4775.15
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-04",
+      "ventas": 1645.65
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-05",
+      "ventas": 2697.6
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-06",
+      "ventas": 2717.21
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-07",
+      "ventas": 7116.77
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-08",
+      "ventas": 2894.41
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-09",
+      "ventas": 4461.24
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-10",
+      "ventas": 7964.94
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-11",
+      "ventas": 8025.06
+    },
+    {
+      "pais": "Spain",
+      "mes": "2011-12",
+      "ventas": 288.21
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2009-12",
+      "ventas": 285.3
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-01",
+      "ventas": 1582.15
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-02",
+      "ventas": 8162.58
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-03",
+      "ventas": 1334.18
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-04",
+      "ventas": 15868.44
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-05",
+      "ventas": 3556.76
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-06",
+      "ventas": 874.3
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-07",
+      "ventas": 2390.78
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-08",
+      "ventas": 2312.94
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-09",
+      "ventas": 2819.56
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-10",
+      "ventas": 8769.41
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-11",
+      "ventas": 1533.91
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2010-12",
+      "ventas": 3834.3
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-01",
+      "ventas": 3286.32
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-02",
+      "ventas": 469.5
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-03",
+      "ventas": 4680.58
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-04",
+      "ventas": 649.1
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-05",
+      "ventas": 2641.98
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-06",
+      "ventas": 676.0
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-07",
+      "ventas": 6692.09
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-08",
+      "ventas": 1150.36
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-09",
+      "ventas": 4517.21
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-10",
+      "ventas": 5671.16
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-11",
+      "ventas": 2322.23
+    },
+    {
+      "pais": "Sweden",
+      "mes": "2011-12",
+      "ventas": 238.0
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2009-12",
+      "ventas": 469.4
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-02",
+      "ventas": 397.68
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-03",
+      "ventas": 831.62
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-04",
+      "ventas": 1819.76
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-05",
+      "ventas": 9745.16
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-06",
+      "ventas": 2362.47
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-07",
+      "ventas": 569.99
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-08",
+      "ventas": 1898.05
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-09",
+      "ventas": 2274.44
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-10",
+      "ventas": 8149.69
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-11",
+      "ventas": 12440.73
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2010-12",
+      "ventas": 1224.92
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-01",
+      "ventas": 4031.23
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-02",
+      "ventas": 2374.92
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-03",
+      "ventas": 1590.23
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-04",
+      "ventas": 1756.94
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-05",
+      "ventas": 3450.01
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-06",
+      "ventas": 7544.15
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-07",
+      "ventas": 3510.76
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-08",
+      "ventas": 4889.89
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-09",
+      "ventas": 7524.86
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-10",
+      "ventas": 7250.73
+    },
+    {
+      "pais": "Switzerland",
+      "mes": "2011-11",
+      "ventas": 7916.96
+    },
+    {
+      "pais": "Thailand",
+      "mes": "2010-06",
+      "ventas": 1956.84
+    },
+    {
+      "pais": "Thailand",
+      "mes": "2010-07",
+      "ventas": 1113.7
+    },
+    {
+      "pais": "USA",
+      "mes": "2010-01",
+      "ventas": 2284.59
+    },
+    {
+      "pais": "USA",
+      "mes": "2010-05",
+      "ventas": 416.31
+    },
+    {
+      "pais": "USA",
+      "mes": "2010-06",
+      "ventas": 596.07
+    },
+    {
+      "pais": "USA",
+      "mes": "2010-07",
+      "ventas": 507.25
+    },
+    {
+      "pais": "USA",
+      "mes": "2010-10",
+      "ventas": 132.8
+    },
+    {
+      "pais": "USA",
+      "mes": "2010-11",
+      "ventas": 402.6
+    },
+    {
+      "pais": "USA",
+      "mes": "2011-04",
+      "ventas": 383.95
+    },
+    {
+      "pais": "USA",
+      "mes": "2011-10",
+      "ventas": 2311.2
+    },
+    {
+      "pais": "USA",
+      "mes": "2011-12",
+      "ventas": 885.24
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2009-12",
+      "ventas": 517.7
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2010-02",
+      "ventas": 2318.1
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2010-03",
+      "ventas": 1201.52
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2010-08",
+      "ventas": 2047.28
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2010-09",
+      "ventas": 368.24
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2010-10",
+      "ventas": 509.92
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2010-11",
+      "ventas": 1445.69
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2011-02",
+      "ventas": 889.24
+    },
+    {
+      "pais": "United Arab Emirates",
+      "mes": "2011-09",
+      "ventas": 975.54
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2009-12",
+      "ventas": 727079.12
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-01",
+      "ventas": 483163.87
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-02",
+      "ventas": 446024.01
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-03",
+      "ventas": 668442.84
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-04",
+      "ventas": 555596.73
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-05",
+      "ventas": 551103.84
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-06",
+      "ventas": 600746.15
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-07",
+      "ventas": 550388.39
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-08",
+      "ventas": 580279.54
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-09",
+      "ventas": 724938.6
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-10",
+      "ventas": 944071.88
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-11",
+      "ventas": 1245811.09
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2010-12",
+      "ventas": 705309.44
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-01",
+      "ventas": 545912.68
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-02",
+      "ventas": 417959.29
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-03",
+      "ventas": 571461.96
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-04",
+      "ventas": 465383.69
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-05",
+      "ventas": 618265.01
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-06",
+      "ventas": 605155.83
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-07",
+      "ventas": 577182.24
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-08",
+      "ventas": 578787.71
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-09",
+      "ventas": 876076.28
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-10",
+      "ventas": 911484.05
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-11",
+      "ventas": 1280862.64
+    },
+    {
+      "pais": "United Kingdom",
+      "mes": "2011-12",
+      "ventas": 571288.66
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2010-01",
+      "ventas": 1035.1
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2010-04",
+      "ventas": 252.52
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2010-07",
+      "ventas": 2379.88
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2010-09",
+      "ventas": 1978.15
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2010-11",
+      "ventas": 540.57
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-04",
+      "ventas": 299.1
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-05",
+      "ventas": 1055.87
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-06",
+      "ventas": 185.78
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-07",
+      "ventas": 1419.11
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-08",
+      "ventas": 531.03
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-09",
+      "ventas": 284.3
+    },
+    {
+      "pais": "Unspecified",
+      "mes": "2011-11",
+      "ventas": 965.75
+    },
+    {
+      "pais": "West Indies",
+      "mes": "2010-08",
+      "ventas": 536.41
+    }
+  ],
+  "top_productos": [
+    {
+      "codigo": "22423",
+      "descripcion": "REGENCY CAKESTAND 3 TIER",
+      "ventas": 330590.32
+    },
+    {
+      "codigo": "85123A",
+      "descripcion": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "ventas": 261168.73
+    },
+    {
+      "codigo": "85099B",
+      "descripcion": "JUMBO BAG RED WHITE SPOTTY",
+      "ventas": 182680.98
+    },
+    {
+      "codigo": "23843",
+      "descripcion": "PAPER CRAFT , LITTLE BIRDIE",
+      "ventas": 168469.6
+    },
+    {
+      "codigo": "47566",
+      "descripcion": "PARTY BUNTING",
+      "ventas": 148318.28
+    },
+    {
+      "codigo": "84879",
+      "descripcion": "ASSORTED COLOUR BIRD ORNAMENT",
+      "ventas": 129324.49
+    },
+    {
+      "codigo": "22086",
+      "descripcion": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "ventas": 117760.29
+    },
+    {
+      "codigo": "23166",
+      "descripcion": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "ventas": 81700.92
+    },
+    {
+      "codigo": "79321",
+      "descripcion": "CHILLI LIGHTS",
+      "ventas": 80540.88
+    },
+    {
+      "codigo": "22197",
+      "descripcion": "POPCORN HOLDER , SMALL",
+      "ventas": 79520.2
+    }
+  ]
+}

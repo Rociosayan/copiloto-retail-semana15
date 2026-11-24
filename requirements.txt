@@ -1,0 +1,4 @@
+fastapi
+duckdb
+pulp>=3,<4
+httpx

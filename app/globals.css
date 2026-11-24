@@ -1,0 +1,28 @@
+/**
+ * Estilos base de la interfaz. El azul de marca vive en la barra lateral.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-900 antialiased;
+}
+
+/* Ilustración comercial: orienta la portada sin representar datos ni productos reales. */
+@media (min-width: 1100px) {
+  main > header.relative::after {
+    content: "";
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    width: 36%;
+    height: 100%;
+    background: url("/retail-hero.svg") center / contain no-repeat;
+    opacity: .92;
+    pointer-events: none;
+  }
+  main > header.relative > div.relative {
+    z-index: 1;
+  }
+}
