@@ -54,28 +54,21 @@ export function Producto(){
 }
 
 /**
- * Posiciones aproximadas para orientar la selección. Los importes proceden del pipeline.
- * Los países sin punto siguen disponibles en la lista completa debajo del mapa.
+ * Mapa europeo Natural Earth con puntos de selección aproximados.
+ * Los importes proceden del pipeline; mercados de otros continentes están en la lista.
  */
 function MapaMercados({mercados,elegido,elegir}:{mercados:[string,number][];elegido:string;elegir:(x:string)=>void}){
  const posicion:Record<string,[number,number]>={
-  "United Kingdom":[43,35],"EIRE":[35,41],"Netherlands":[53,39],"Germany":[62,43],"France":[47,51],
-  "Australia":[85,78],"Spain":[40,60],"Switzerland":[57,53],"Belgium":[51,46],"Sweden":[59,28],
-  "Norway":[49,24],"Denmark":[66,34],"Italy":[62,59],"Japan":[89,49],"USA":[23,49],
-  "Canada":[21,39],"Singapore":[79,68],"Portugal":[47,51],"Finland":[58,35],"Austria":[55,47]
+  "United Kingdom":[16,48],"EIRE":[7,45],"Netherlands":[30,48],"Germany":[42,51],"France":[21,62],
+  "Spain":[14,78],"Switzerland":[36,63],"Belgium":[29,57],"Sweden":[47,24],
+  "Norway":[36,24],"Denmark":[39,38],"Italy":[43,72],"Portugal":[6,78],"Finland":[66,20],"Austria":[48,61]
  };
  const puntos=mercados.filter(([nombre])=>posicion[nombre]).slice(0,12);
  return <div className="mt-4 overflow-hidden rounded-2xl bg-[#eaf2f6] p-2">
-  <svg viewBox="0 0 100 95" className="w-full" role="img" aria-label="Mapa interactivo de los principales mercados">
-   <g fill="#c5d6df" stroke="#eaf2f6" strokeWidth=".6">
-    <path d="M7 21 18 13 30 16 37 23 35 35 27 37 24 48 18 55 12 51 8 40Z"/>
-    <path d="M25 54 34 54 38 63 34 75 30 88 24 80 22 68Z"/>
-    <path d="M44 19 54 16 62 21 70 17 91 24 96 35 88 44 92 52 85 60 73 56 67 63 59 56 54 47 48 43 43 34Z"/>
-    <path d="M48 48 58 47 63 57 60 71 55 80 48 72 45 58Z"/>
-    <path d="M78 73 88 70 96 77 94 86 83 88 77 82Z"/>
-   </g>
-   {puntos.map(([nombre,ventas])=>{const [x,y]=posicion[nombre];const activo=elegido===nombre;return <g key={nombre} role="button" tabIndex={0} aria-label={`Filtrar ${nombre}, ${gbp(ventas)}`} onClick={()=>elegir(activo?"":nombre)} onKeyDown={e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();elegir(activo?"":nombre)}}} className="cursor-pointer"><title>{`${nombre}: ${gbp(ventas)} · pulsar para filtrar`}</title><circle cx={x} cy={y} r={activo?4.3:3.5} fill={activo?"#d5ac67":"#2f658b"} opacity=".25"/><circle cx={x} cy={y} r={activo?2:1.4} fill={activo?"#b17e35":"#17395c"} stroke="white" strokeWidth=".45"/></g>})}
-  </svg><p className="px-2 pb-2 text-[11px] text-slate-500">● Pulsa un punto para filtrar. Ubicaciones ilustrativas; cifras observadas.</p>
+  <svg viewBox="0 0 100 95" className="w-full" role="img" aria-label="Mapa interactivo de Europa y sus mercados">
+   <image href="/mapa-europa.svg" x="0" y="0" width="100" height="95"/>
+   {puntos.map(([nombre,ventas])=>{const [x,y]=posicion[nombre];const activo=elegido===nombre;return <g key={nombre} role="button" tabIndex={0} aria-label={`Filtrar ${nombre}, ${gbp(ventas)}`} onClick={()=>elegir(activo?"":nombre)} onKeyDown={e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();elegir(activo?"":nombre)}}} className="cursor-pointer"><title>{`${nombre}: ${gbp(ventas)} · pulsar para filtrar`}</title><circle cx={x} cy={y} r={activo?4:3.2} fill={activo?"#d5ac67":"#2f658b"} opacity=".25"/><circle cx={x} cy={y} r={activo?2:1.5} fill={activo?"#b17e35":"#17395c"} stroke="white" strokeWidth=".5"/></g>})}
+  </svg><p className="px-2 pb-2 text-[11px] text-slate-500">Europa en foco · pulsa un punto. Otros países están en la lista. Mapa: Natural Earth.</p>
  </div>;
 }
 
@@ -83,7 +76,30 @@ function VistaClientes({datos}:{datos:Clientes|null}){const [umbral,setUmbral]=u
 
 function VistaDemanda({datos,codigo,elegir}:{datos:Demanda[];codigo:string;elegir:(x:string)=>void}){const p=datos.find(x=>x.codigo===codigo)||datos[0];if(!p)return <div className={caja}>Falta el pronóstico.</div>;return <div className="space-y-6"><div className={caja}><label className="text-sm font-semibold">Producto<select className="mt-2 block w-full rounded-xl border p-3 md:w-[500px]" value={p.codigo} onChange={e=>elegir(e.target.value)}>{datos.map(x=><option key={x.codigo} value={x.codigo}>{x.descripcion} · {x.codigo}</option>)}</select></label><p className="mt-3 text-sm text-slate-500">Pronóstico global por producto; no existe pronóstico por país.</p></div><div className={caja}><h2 className="text-xl font-semibold">Historia y próximas 8 semanas</h2><div className="mt-5 h-80"><ResponsiveContainer width="100%" height="100%"><LineChart data={[...p.historia.map(x=>({semana:x.semana,observado:x.unidades})),...p.pronostico.map(x=>({semana:x.semana,pronostico:x.unidades}))]}><CartesianGrid vertical={false}/><XAxis dataKey="semana" tick={{fontSize:10}} interval="preserveStartEnd"/><YAxis/><Tooltip/><Line dataKey="observado" stroke="#34729b" dot={false}/><Line dataKey="pronostico" stroke="#ae7b35" strokeDasharray="5 4"/></LineChart></ResponsiveContainer></div><p className="mt-3 text-sm">Predicción · {p.modelo_elegido}: error medio de {n(p.mae_elegido)} unidades por semana. WAPE {pct(p.wape_elegido)} en 12 semanas de prueba desde {p.inicio_prueba}.</p></div><div className={caja}><h2 className="text-xl font-semibold">Validación temporal</h2><table className="mt-4 w-full text-left text-sm"><thead><tr className="border-b"><th>Modelo</th><th>MAE</th><th>WAPE</th></tr></thead><tbody>{p.modelos.map(x=><tr key={x.nombre} className={`border-b ${x.elegido?"font-bold text-[#34729b]":""}`}><td className="py-2">{x.nombre}{x.elegido?" · elegido":""}</td><td>{x.mae==null?"—":n(x.mae)}</td><td>{x.wape==null?"—":pct(x.wape)}</td></tr>)}</tbody></table></div></div>}
 
-function VistaReposicion(){const [presupuesto,setPresupuesto]=useState(10000),[r,setR]=useState<any>(null),[error,setError]=useState(""),[carga,setCarga]=useState(false);async function calcular(){setCarga(true);setError("");try{const res=await fetch("/api/py/optimizar",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({presupuesto})});if(!res.ok)throw Error("API");setR(await res.json())}catch{setError("No se pudo calcular. Comprueba que FastAPI esté activo.")}finally{setCarga(false)}}return <div className="space-y-6"><div className={caja}><h2 className="text-xl font-semibold">Plan de compra · próximas 4 semanas</h2><div className="mt-4 flex flex-wrap items-end gap-3"><label className="text-sm">Presupuesto £<input className="mt-2 block rounded-xl border p-3" type="number" min="0" value={presupuesto} onChange={e=>setPresupuesto(+e.target.value)}/></label><button className="rounded-xl bg-[#17395c] px-6 py-3 text-sm font-semibold text-white" onClick={calcular}>{carga?"Calculando…":"Calcular plan"}</button></div><p className="mt-3 text-xs text-slate-500">Margen 30 % y costo 70 %: supuestos académicos. Demanda global por producto.</p></div>{error&&<div className={caja}>{error}</div>}{r&&<><div className="grid gap-4 md:grid-cols-3"><Kpi titulo="Margen óptimo" valor={gbp(r.margen_optimo)} nota="Estimación"/><Kpi titulo="Margen intuitivo" valor={gbp(r.margen_intuitivo)} nota="Referencia"/><Kpi titulo="Mejora" valor={gbp(r.mejora)} nota="Diferencia estimada"/></div><div className={caja}><h2 className="text-xl font-semibold">Unidades por producto</h2><div className="overflow-x-auto"><table className="mt-4 w-full min-w-[500px] text-left text-sm"><thead><tr className="border-b"><th>Producto</th><th>Óptimo</th><th>Intuitivo</th></tr></thead><tbody>{r.productos?.map((x:any)=><tr key={x.codigo_producto} className="border-b"><td className="py-2">{x.descripcion}</td><td>{n(x.compra_optima)}</td><td>{n(x.compra_intuitiva)}</td></tr>)}</tbody></table></div></div></>}</div>}
+function IlustracionCompra({presupuesto,productos}:{presupuesto:number;productos?:{descripcion:string;compra_optima:number}[]}){
+ const principales=[...(productos||[])].sort((a,b)=>b.compra_optima-a.compra_optima).slice(0,3);
+ const mayor=principales[0]?.compra_optima||1;
+ return <div className="grid items-center gap-5 rounded-2xl bg-[#eaf2f6] p-4 md:grid-cols-[200px_1fr]">
+  <svg viewBox="0 0 200 150" className="mx-auto h-36 w-48" role="img" aria-label="Ilustración de presupuesto que se transforma en compras">
+   <circle cx="48" cy="56" r="34" fill="#e2b86f"/><text x="48" y="67" textAnchor="middle" fill="#17395c" fontSize="34" fontWeight="bold">£</text>
+   <path d="M86 56h32m-9-9 10 9-10 9" stroke="#34729b" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+   <rect x="127" y="55" width="50" height="62" rx="7" fill="#b8d2e2"/><path d="M140 60V48a12 12 0 0 1 24 0v12" stroke="#34729b" strokeWidth="6" fill="none"/>
+   <rect x="113" y="91" width="42" height="35" rx="4" fill="#dfb66f"/><path d="M134 92v34" stroke="#ad813c" strokeWidth="3"/>
+   <path d="M24 137h159" stroke="#8db2c9" strokeWidth="3" strokeLinecap="round"/>
+  </svg>
+  <div><p className="text-xs font-bold uppercase tracking-widest text-[#34729b]">Presupuesto disponible</p><p className="mt-1 text-2xl font-semibold">{gbp(presupuesto)}</p>{principales.length?<div className="mt-3 space-y-2">{principales.map((x,i)=><div key={x.descripcion} className="text-xs"><div className="flex justify-between gap-3"><span className="truncate">{x.descripcion}</span><b>{n(x.compra_optima)} u.</b></div><div className="mt-1 h-1.5 rounded-full bg-white"><div className="h-full rounded-full bg-[#34729b]" style={{width:`${Math.max(2,x.compra_optima/mayor*100)}%`}}/></div></div>)}</div>:<p className="mt-2 text-sm text-slate-600">Calcula el plan para ver las unidades propuestas.</p>}</div>
+ </div>;
+}
+
+function VistaReposicion(){
+ const [presupuesto,setPresupuesto]=useState(10000),[r,setR]=useState<any>(null),[error,setError]=useState(""),[carga,setCarga]=useState(false);
+ async function calcular(){setCarga(true);setError("");try{const res=await fetch("/api/py/optimizar",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({presupuesto})});if(!res.ok)throw Error("API");setR(await res.json())}catch{setError("No se pudo calcular. Comprueba que FastAPI esté activo.")}finally{setCarga(false)}}
+ return <div className="space-y-6">
+  <div className={caja}><h2 className="text-xl font-semibold">Plan de compra · próximas 4 semanas</h2><p className="mt-1 text-sm text-slate-500">Del presupuesto a las unidades que conviene comprar</p><div className="mt-5"><IlustracionCompra presupuesto={presupuesto} productos={r?.productos}/></div><div className="mt-5 flex flex-wrap items-end gap-3"><label className="text-sm">Presupuesto £<input className="mt-2 block rounded-xl border p-3" type="number" min="0" value={presupuesto} onChange={e=>{setPresupuesto(+e.target.value);setR(null)}}/></label><button className="rounded-xl bg-[#17395c] px-6 py-3 text-sm font-semibold text-white" onClick={calcular}>{carga?"Calculando…":"Calcular plan"}</button></div><p className="mt-3 text-xs text-slate-500">Margen 30 % y costo 70 %: supuestos académicos. Demanda global por producto.</p></div>
+  {error&&<div className={caja}>{error}</div>}
+  {r&&<><div className="grid gap-4 md:grid-cols-3"><Kpi titulo="Margen óptimo" valor={gbp(r.margen_optimo)} nota="Estimación"/><Kpi titulo="Margen intuitivo" valor={gbp(r.margen_intuitivo)} nota="Referencia"/><Kpi titulo="Mejora" valor={gbp(r.mejora)} nota="Diferencia estimada"/></div><div className={caja}><h2 className="text-xl font-semibold">Unidades por producto</h2><div className="overflow-x-auto"><table className="mt-4 w-full min-w-[500px] text-left text-sm"><thead><tr className="border-b"><th>Producto</th><th>Óptimo</th><th>Intuitivo</th></tr></thead><tbody>{r.productos?.map((x:any)=><tr key={x.codigo_producto} className="border-b"><td className="py-2">{x.descripcion}</td><td>{n(x.compra_optima)}</td><td>{n(x.compra_intuitiva)}</td></tr>)}</tbody></table></div></div></>}
+ </div>;
+}
 
 function VistaPreguntas(){const [preguntas,setPreguntas]=useState<{id:string;pregunta:string}[]>([]),[modo,setModo]=useState(false),[r,setR]=useState<any>(null),[texto,setTexto]=useState(""),[error,setError]=useState("");useEffect(()=>{fetch("/api/py/preguntas").then(x=>x.json()).then(setPreguntas).catch(()=>{});fetch("/api/py/modo").then(x=>x.json()).then(x=>setModo(x.ia_disponible)).catch(()=>{})},[]);async function preguntar(body:any){setError("");try{const x=await fetch("/api/py/consulta",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});setR(await x.json());if(!x.ok)setError("Consulta bloqueada o API no disponible.")}catch{setError("No se pudo consultar la API.")}}return <div className="grid gap-6 xl:grid-cols-2"><div className={caja}><h2 className="text-xl font-semibold">Preguntas verificables</h2><div className="mt-4 space-y-2">{preguntas.map(x=><button key={x.id} onClick={()=>preguntar({modo:"predefinida",id:x.id})} className="block w-full rounded-xl bg-slate-50 p-3 text-left text-sm hover:bg-blue-50">{x.pregunta}</button>)}</div><p className="mt-5 text-sm">{modo?"La IA está disponible; cada SQL pasa por el validador.":"Modo IA opcional: configura proveedor, modelo y clave para preguntas libres."}</p>{modo&&<form className="mt-3 flex gap-2" onSubmit={e=>{e.preventDefault();preguntar({modo:"ia",pregunta:texto})}}><input value={texto} onChange={e=>setTexto(e.target.value)} className="min-w-0 flex-1 rounded-xl border p-2"/><button className="rounded-xl bg-[#17395c] px-4 text-white">Enviar</button></form>}</div><div className={caja}><h2 className="text-xl font-semibold">SQL y resultados</h2>{error&&<p className="mt-4 text-red-700">{error}</p>}{r?<><p className="mt-4 text-sm">Validación: {r.validacion}</p><pre className="mt-3 overflow-auto rounded-xl bg-slate-100 p-3 text-xs">{r.sql}</pre><pre className="mt-4 max-h-96 overflow-auto text-xs">{JSON.stringify(r.resultados,null,2)}</pre></>:<p className="mt-4 text-sm text-slate-500">Elige una pregunta.</p>}</div></div>}
 

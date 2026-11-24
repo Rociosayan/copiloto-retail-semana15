@@ -18,7 +18,7 @@ with sync_playwright() as playwright:
     assert pagina.get_by_label("País", exact=True).input_value() == "United Kingdom"
     pagina.get_by_role("button", name="Limpiar filtros").click()
     pagina.screenshot(path=str(RAIZ / "vista-inicio.png"), full_page=False)
-    pagina.get_by_role("img", name="Mapa interactivo de los principales mercados").screenshot(path=str(RAIZ / "vista-mapa.png"), style="div.fixed { visibility: hidden }")
+    pagina.get_by_role("img", name="Mapa interactivo de Europa y sus mercados").screenshot(path=str(RAIZ / "vista-mapa.png"), style="div.fixed { visibility: hidden }")
     pagina.get_by_label("País", exact=True).select_option("Germany")
     pagina.get_by_text("Germany ·").first.wait_for()
     assert pagina.get_by_text("£ 19,645,617.79").count() == 0
@@ -42,6 +42,7 @@ with sync_playwright() as playwright:
     pagina.get_by_role("button", name="Reposición").click()
     pagina.get_by_role("button", name="Calcular plan").click()
     pagina.get_by_text("Margen óptimo").wait_for()
+    pagina.locator("main").screenshot(path=str(RAIZ / "vista-reposicion.png"))
     pagina.get_by_role("button", name="Pregúntale a tus datos").click()
     pagina.get_by_role("button", name="¿Cuánto vendimos en total?").click()
     pagina.get_by_text("19645617.79").wait_for()

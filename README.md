@@ -24,9 +24,12 @@ Instala también `pipeline/requirements.txt` en el entorno de Python. Ejecuta, e
 .\.venv\Scripts\python.exe pipeline/02_clientes.py
 .\.venv\Scripts\python.exe pipeline/03_demanda.py
 .\.venv\Scripts\python.exe pipeline/04_tablero.py
+.\.venv\Scripts\python.exe pipeline/05_mapa_europa.py
 ```
 
 El primer paso descarga la fuente UCI o usa el Excel oficial incluido como respaldo. Las agregaciones de `explorador.json` proceden de `data/ventas.parquet`. Los modelos de clientes y demanda se calculan una vez en el pipeline. El pronóstico es global por producto; no representa un pronóstico por país. Los supuestos académicos son margen de 30 %, costo de compra de 70 %, costo de contacto £2 y éxito de campaña de 20 %.
+
+El mapa ilustrativo de Europa se genera con fronteras de [Natural Earth 110m](https://www.naturalearthdata.com/about/terms-of-use/), de dominio público. Los puntos seleccionan países; las cifras de ventas proceden únicamente de Online Retail II.
 
 ## Consultas con IA opcional
 
