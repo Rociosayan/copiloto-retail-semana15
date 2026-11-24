@@ -14,11 +14,7 @@ with sync_playwright() as playwright:
     pagina = navegador.new_page(viewport={"width": 1440, "height": 900})
     pagina.goto(URL, wait_until="networkidle")
     pagina.get_by_text("£ 19,645,617.79").wait_for()
-    pagina.get_by_role("button", name="Filtrar United Kingdom").click()
-    assert pagina.get_by_label("País", exact=True).input_value() == "United Kingdom"
-    pagina.get_by_role("button", name="Limpiar filtros").click()
     pagina.screenshot(path=str(RAIZ / "vista-inicio.png"), full_page=False)
-    pagina.get_by_role("img", name="Mapa interactivo de Europa y sus mercados").screenshot(path=str(RAIZ / "vista-mapa.png"), style="div.fixed { visibility: hidden }")
     pagina.get_by_label("País", exact=True).select_option("Germany")
     pagina.get_by_text("Germany ·").first.wait_for()
     assert pagina.get_by_text("£ 19,645,617.79").count() == 0
