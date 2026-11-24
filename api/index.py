@@ -46,7 +46,8 @@ def optimizar(cuerpo: Compra):
     for i, p in enumerate(productos):
         problema += venta[i] <= compra[i]
         problema += venta[i] <= max(0, int(float(p["demanda_4_semanas"])))
-    problema.solve(pulp.PULP_CBC_CMD(msg=False))
+    # HiGHS se distribuye como paquete Python con rueda para Linux en Vercel.
+    problema.solve(pulp.HiGHS(msg=False))
     if pulp.LpStatus[problema.status] != "Optimal":
         raise HTTPException(500, "El optimizador no encontró una solución.")
     # Referencia intuitiva: unidades de las cuatro semanas recientes, escaladas al presupuesto.
